@@ -80,7 +80,7 @@ const About = () => {
             </div>
 
             <p>
-                Outside of code, I’m sporty, and consistently hit the gym. I like to call it a day by 
+                Outside of code, I’m sporty, and love maths and science. I like to call it a day by 
                 demolishing myself at the gym after long hours of mental exertion. 
             </p>
             </div>
