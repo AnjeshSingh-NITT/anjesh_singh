@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Home from './pages/Home';
 import ThemeToggle from './components/ThemeToggle';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [isDark, setIsDark] = useState(true);
@@ -13,6 +14,7 @@ function App() {
     <div className="min-h-screen transition-colors duration-300">
       <ThemeToggle isDark={isDark} setIsDark={setIsDark} />
       <Home />
+      <Analytics />
     </div>
   );
 }
